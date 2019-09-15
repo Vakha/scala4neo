@@ -1,0 +1,23 @@
+# Mac
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Neo4j db folder
+neo4j_data/
+
+# Pants
+.pants.d
+.cache
+dist
+.pids
+.pants.workdir.file_lock
+
+# IDE specific
+.scala_dependencies
+.worksheet
+.idea/
+*.iml

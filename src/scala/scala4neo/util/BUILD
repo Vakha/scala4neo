@@ -1,0 +1,10 @@
+scala_library(
+	sources=rglobs('*.scala'),
+	dependencies=[
+		'3rdparty/jvm:typesafeConfig',
+		'3rdparty/jvm:sl4jApi',
+		'3rdparty/jvm:logback',
+		'3rdparty/jvm:monix',
+		'src/scala/scala4neo/model'
+  	],
+)

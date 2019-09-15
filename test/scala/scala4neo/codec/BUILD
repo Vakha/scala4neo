@@ -1,0 +1,11 @@
+junit_tests(
+	sources=rglobs('*.scala'),
+	dependencies=[
+        'src/scala/scala4neo/codec',
+        'src/scala/scala4neo/databaseimpl',
+        'test/scala/scala4neo/testkit',
+        'test/scala/scala4neo/modeltestkit',
+        'test/scala/scala4neo/data',
+        'test/resources',
+  	],
+)
